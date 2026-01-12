@@ -1,0 +1,2 @@
+# Calculadorasolitario
+Calculadora Basica
