@@ -10,9 +10,24 @@ package com.mycompany.calculadorasolo;
  */
 public class Calculadora {
      public static void main(String[] args) {
-         System.out.println("=== Calculadora Basica ===");
-         System.out.println("Version 1.0");
+        
      }
-    
-    
+    public static double sumar(double a, double b) {
+    return a + b;
+}
+
+public static double restar(double a, double b) {
+    return a - b;
+}
+    public static double multiplicar(double a, double b) {
+    return a * b;
+}
+
+public static double dividir(double a, double b) {
+    if (b == 0) {
+        System.out.println("Error");
+        return 0;
+    }
+    return a / b;
+}
 }
